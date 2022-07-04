@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+button             :hover{
+  font-weight: bolder;
+  font-size: 22px;
+  transition: 1s;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  font-weight: bolder;
+  font-size: 22px;
+  transition: 1s;
+}
+
+.top_section {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("./bg-hero-mobile.svg");
+  height: 115vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px 0px;
+}
+
+.header img {
+  padding: 5px;
+  height: 20px;
+}
+
+.header button {
+  padding: 8px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  color: hsl(192, 100%, 9%);
+  font-weight: bold;
+  width: 120px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.top_left h1 {
+  font-size: 20px;
+}
+
+.get_started {
+  padding: 15px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  margin-top: 25px;
+  width: 250px;
+}
+
+.top_left {
+  padding: 50px 70px 50px 70px;
+  text-align: center;
+  margin: auto;
+}
+
+.top_right img {
+  width: 300px;
+}
+
+.top_right {
+  padding: 0px 75px 0px 45px;
+}
+
+.middle_section {
+  padding: 50px 20px;
+}
+
+.middle {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.middle img {
+  width: 250px;
+  padding: 20px 50px 20px 30px;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 100px;
+  padding: 50px 30px 40px;
+  color: white;
+}
+
+.foot_img{
+  height: 20px;
+  padding-top: 50px;
+}
+
+.footer {
+  position: relative;
+}
+
+.foot_logo {
+  padding-bottom: 30px;
+}
+
+.inbetween {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  width: 300px;
+  margin: auto;
+}
+
+footer p {
+  padding: 10px;
+}
+
+.foot4{
+  text-align: center;
+  margin: 50px 0px 10PX;
+}
+
+.copyright{
+  font-size: 12px;
+}
+
+i {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 5px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 376px) {
+  .d-flex {
+    display: flex;
+  }
+
+  .top_section {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url("./bg-hero-desktop.svg");
+    height: 100vh;
+  }
+
+  .header {
+    padding: 50px;
+  }
+
+  .header img {
+    height: 30px;
+  }
+
+  .header button {
+    padding: 15px;
+    width: 170px;
+  }
+
+  .top_left h1 {
+    font-size: 30px;
+  }
+
+  .top_left {
+    flex: 50%;
+    padding: 50px 40px 50px 100px;
+    text-align: left;
+    justify-items: center;
+    margin: auto;
+  }
+
+  .top_right {
+    flex: 50%;
+    padding: 0px 60px;
+  }
+
+  .top_right img {
+    width: 600px;
+  }
+
+  .top_right {
+    flex: 50%;
+    padding: 0px 60px;
+  }
+
+  .middle_section {
+    padding: 100px;
+  }
+
+  .middle {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .middle img {
+    width: 400px;
+    flex-direction: row;
+  }
+
+  .reverse{
+    flex-direction: row-reverse;
+  }
+
+  .left_side {
+    flex: 50%;
+    padding: 50px 150px 50px 50px;
+    text-align: left;
+    justify-items: center;
+    margin: auto;
+  }
+
+  .right_side {
+    flex: 50%;
+    padding: 50px 50px 50px 150px;
+    text-align: left;
+    justify-items: center;
+    margin: auto;
+  }
+  .right_side :nth-child(1){
+    order: 2;
+  }
+
+  .right_side :nth-child(2){
+    order: 1;
+  }
+
+  footer {
+    margin: 100px;
+    padding: 180px 100px 100px;
+  }
+
+  .foot_img{
+    height: 30px;
+  }
+
+  .inbetween {
+    padding: 40px;
+    width: 450px;
+    margin: auto;
+  }
+
+  .foot1, .foot4{
+    flex: 35%;
+  }
+
+  .foot4{
+    margin-top: 0px;
+  }
+
+  .foot1 img {
+    padding: 10px 5px 0px;
+  }
+
+  .foot2,
+  .foot3 {
+    flex: 20%;
+  }
+
+  .foot2 {
+    margin-left: 100px;
+  }
+
+  .copyright{
+    margin-top: 200px; 
+  }
+}
